@@ -1,5 +1,5 @@
-# ExampleMod
-An example of a simple mod for Mindustry.
+# Fam's Power Core mod
+A mod that allows you to store ridiculous amounts of power using items. Can be launched.
 
 ## Importing
 
@@ -7,7 +7,7 @@ Simply download this repository as a zip, then import it through the `Mods` dial
 
 ## Contributing
 
-Feel free to submit more example content to this repository. For example sprites, I recommend re-coloring existing blocks and using the existing Mindustry palette.
+Feel free to submit ideas to this mod.
 
 ## Want more mods?
 

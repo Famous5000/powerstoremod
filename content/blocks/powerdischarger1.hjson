@@ -1,0 +1,24 @@
+type: SingleTypeGenerator
+name: Power Core Converter 1
+description: Extracts power from power cores, Tier 1 only.
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 60
+powerProduction: 20
+itemCapacity: 120
+consumes: {
+  items: {
+    items: [
+      power120/1
+    ]
+    optional: true
+  }
+}
+randomlyExplode: false
+requirements: [
+  titanium/20
+  silicon/60
+]
+category: power
+research: powercharger1

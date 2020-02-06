@@ -1,0 +1,22 @@
+type: BurnerGenerator
+name: Safe Generator
+description: Safely without explosions takes power out of fuel.
+size: 1
+hasPower: true
+hasItems: true
+itemDuration: 12
+powerProduction: 20
+consumes: {
+  liquid:{
+    liquid: water
+    amount: 0.1666666666666666666666666666666666666667
+  }
+}
+itemCapacity: 120
+randomlyExplode: false
+requirements: [
+  copper/50
+  silicon/60
+]
+category: power
+research: powercharger0

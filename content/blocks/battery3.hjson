@@ -1,0 +1,17 @@
+name: Large Battery MK3
+description: A strong but weak battery capable of holding 5m power units.
+type: Battery
+health: 120
+size: 3
+buildCostMultiplier: 6
+consumes: {
+  powerBuffered: 5000000
+}
+requirements: [
+  titanium/500
+  thorium/200
+  silicon/300
+  power12000/100
+]
+category: power
+research: battery-large

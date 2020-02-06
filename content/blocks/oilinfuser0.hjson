@@ -1,0 +1,27 @@
+type: GenericSmelter
+name: Oil Infuser 0
+size: 2
+hasPower: false
+description: Inserts oil into coal to make a tier 0 oil core.
+hasItems: true
+hasLiquids:true
+craftTime: 6
+consumes: {
+  items:{   
+      items:[
+        coal/1
+      ]
+  }
+  liquid:{
+    liquid: oil
+    amount: 0.1666666666666666666666666666666666666667
+  }
+}
+heatColor: a8e2ff
+requirements: [
+  lead/50
+  silicon/60
+]
+outputItem: oil12/1
+category: crafting
+research: power-node

@@ -1,0 +1,24 @@
+type: GenericSmelter
+name: Silicon Producer MK2
+size: 2
+hasPower: false
+description: Directly converts T1 power cores + sand into 40 silicon
+hasItems: true
+craftTime: 60
+itemCapacity: 120
+consumes: {
+  items:{   
+      items:[
+        power120/2
+        sand/20
+      ]
+  }
+}
+heatColor: a8e2ff
+requirements: [
+  power12/20
+  lead/60
+]
+outputItem: silicon/40
+category: crafting
+research: powercharger1

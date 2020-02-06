@@ -1,0 +1,32 @@
+type: NuclearReactor
+name: Power Core Reactor 0
+description: Heavily extracts power from power cores, Tier 2 only.
+size: 4
+hasPower: true
+hasItems: true
+itemDuration: 600
+powerProduction: 200
+itemCapacity: 120
+liquidCapacity: 100
+consumes: {
+  items: {
+    items: [
+      power1200/1
+    ]
+  }
+  liquid: {
+    liquid: cryofluid
+    amount: 0.25
+  }
+}
+heating: 0.001
+explosionRadius: 60
+explosionDamage: 2000
+coolantPower: 0.125
+requirements: [
+  titanium/60
+  thorium/100
+  silicon/40
+]
+category: power
+research: powercharger2

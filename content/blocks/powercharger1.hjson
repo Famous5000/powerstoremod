@@ -1,0 +1,24 @@
+type: GenericSmelter
+name: Power Charger 1
+size: 2
+hasPower: true
+description: Inserts power into coal to make a tier 1 power core.
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 200
+  items:{
+      items:[
+        coal/4
+      ]
+  }
+}
+heatColor: 5ec9ff
+requirements: [
+  lead/50
+  titanium/10
+  silicon/60
+]
+outputItem: power120/1
+category: crafting
+research: powercharger0

@@ -1,0 +1,28 @@
+type: GenericSmelter
+name: Oil Infuser 3
+size: 2
+hasPower: false
+description: Inserts oil into copper to make a tier 3 oil core.
+hasItems: true
+hasLiquids:true
+liquidCapacity: 10000
+craftTime: 6
+consumes: {
+  items:{   
+      items:[
+        copper/4
+      ]
+  }
+  liquid:{
+    liquid: oil
+    amount: 166.6666666666666666666666666666666666667
+  }
+}
+heatColor: a8e2ff
+requirements: [
+  lead/50
+  silicon/60
+]
+outputItem: oil12000/1
+category: crafting
+research: power-node

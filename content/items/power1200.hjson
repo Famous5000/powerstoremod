@@ -1,0 +1,6 @@
+type: material
+name: "Power Core [12000]"
+description: A 12000 unit power core. Decent.
+cost: 2
+color: ffffff
+explosiveness: 5

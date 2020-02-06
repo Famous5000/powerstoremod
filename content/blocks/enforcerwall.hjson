@@ -1,0 +1,26 @@
+type: ForceProjector
+name: Force Wall
+description: A wall that has a built-in shield. Very durable shield, very weak block.
+health: 500
+size: 1
+radius: 12
+breakage: 6000
+cooldownNormal: 2.5
+cooldownLiquid: 10
+useTime: 1200
+phaseRadiusBoost: 15
+basePowerDraw: 5
+consumes: {
+  items: {
+    items: [
+      power12000/1
+    ]
+    optional: true
+  }
+}
+research: force-projector
+category: defense
+requirements:[
+    power1200/50
+    thorium/100
+]

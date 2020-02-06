@@ -1,0 +1,7 @@
+type: material
+name: "Power Core [1200]"
+description: A 1200 unit power core. Small.
+cost: 2
+color: ffffff
+flammability: 7
+explosiveness: 1

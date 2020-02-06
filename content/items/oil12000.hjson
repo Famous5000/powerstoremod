@@ -1,0 +1,7 @@
+type: material
+name: "Oil Core MK3"
+description: "An oil core. Very Strong. [red]Warning: Using this in a combustion generator will likely yield explosive results."
+cost: 2
+color: 000000
+flammability: 500
+explosiveness: 250

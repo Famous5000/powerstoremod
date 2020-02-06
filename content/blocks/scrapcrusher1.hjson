@@ -1,0 +1,24 @@
+type: GenericCrafter
+name: Pulverizer mk3
+size: 1
+hasPower: true
+description: Crushes scrap way faster/efficiently.
+hasItems: true
+craftTime: 10
+consumes: {
+  power: 0.033333333333333333333333333333333
+  items:{   
+    items:[
+      scrap/4
+    ]
+  }
+}
+heatColor: a8e2ff
+requirements: [
+  lead/50
+  copper/60
+  power120/10
+]
+outputItem: sand/6
+category: crafting
+research: powercharger1

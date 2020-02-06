@@ -1,0 +1,7 @@
+type: material
+name: "Power Core [120]"
+description: A 120 unit power core. Extremely weak.
+cost: 2
+color: ffffff
+flammability: 1.1
+explosiveness: 0.25

@@ -1,0 +1,24 @@
+type: GenericSmelter
+name: Power Charger 2
+size: 2
+hasPower: true
+description: Inserts power into copper to make a tier 2 power core.
+hasItems: true
+craftTime: 6
+consumes: {
+  power: 2000
+  items:{
+      items:[
+        copper/1
+      ]
+  }
+}
+heatColor: 03a9fc
+requirements: [
+  lead/20
+  titanium/50
+  silicon/40
+]
+outputItem: power1200/1
+category: crafting
+research: powercharger1

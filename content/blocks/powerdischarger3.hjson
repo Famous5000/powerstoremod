@@ -1,0 +1,25 @@
+type: SingleTypeGenerator
+name: Power Core Converter 3
+description: Extracts power from power cores, Tier 3 only.
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 60
+powerProduction: 2000
+itemCapacity: 120
+consumes: {
+  items: {
+    items: [
+      power12000/1
+    ]
+    optional: true
+  }
+}
+randomlyExplode: false
+requirements: [
+  titanium/100
+  thorium/20
+  silicon/10
+]
+category: power
+research: powercharger3

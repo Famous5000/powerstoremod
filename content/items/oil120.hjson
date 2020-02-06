@@ -1,0 +1,7 @@
+type: material
+name: "Oil Core MK1"
+description: An oil core. A bit stronger.
+cost: 2
+color: 000000
+flammability: 20
+explosiveness: 5

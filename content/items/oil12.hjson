@@ -1,0 +1,7 @@
+type: material
+name: "Oil Core MK0"
+description: An oil core. Extremely weak.
+cost: 2
+color: 000000
+flammability: 2
+explosiveness: 0.5

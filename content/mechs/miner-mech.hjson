@@ -1,0 +1,96 @@
+name: Delta Mech
+description: Ground-based mech that mines and constructs VERY fast. Low health.
+speed: 0.8
+maxSpeed: 4.45
+boostSpeed: 4.0
+buildPower: 5
+mineSpeed: 5
+drillPower: 50
+mass: 3
+itemCapacity: 500
+engineColor: "cbaa00"
+compoundSpeed: 5
+compoundSpeedBoost: 7
+flying: false
+health: 45
+engineOffset: 6
+engineSize: 4
+weaponOffsetX: 2
+weaponOffsetY: 2
+//turnCursor: false
+weapon: {
+  name: blaster
+  length: 2
+  width: 2
+  shots: 1
+  reload: 30
+  recoil: 5
+  ignoreRotation: true
+  shootSound: shoot
+  alternate: true
+  bullet: {
+    //name: MortarMechBullet
+    type: ArtilleryBulletType
+    speed: 9
+    drag: 0.042
+    damage: 2
+	splashDamage: 10
+	splashDamageRadius: 50
+    bulletWidth: 16
+    bulletHeight: 16
+	lifetime: 60
+	frontColor: dd9933
+	backColor: ffcc22
+	//trailColor: ffbb11
+    shootEffect: shootBig
+    despawnEffect: explosion
+	hitEffect: flakExplosionBig
+	pierce: false
+	inaccuracy: 0
+	keepVelocity: false
+	splashDamage: 10
+	splashDamageRadius: 50
+	bulletSprite: missile
+	fragBullets: 25
+	fragVelocityMin: 2.5
+	fragVelocityMax: 4.0
+	collidesTiles: false
+	collides: false
+	fragBullet: {
+      type: LiquidBulletType
+	  liquid: slag
+      speed: 1
+	  lifetime: 5
+      damage: 5
+	  collidesAir: true
+      bulletWidth: 2
+      bulletHeight: 5
+	  despawnEffect: shootBigSmoke
+	  hitEffect: none
+	  frontColor: ee993e
+	  backColor: 002fff
+	  pierce: true
+	  bulletSprite: bullet
+	  knockback: 15
+	  fragBullets: 3
+	  fragVelocityMin: 2
+	  fragVelocityMax: 4
+	  fragBullet: {
+        type: BasicBulletType
+        keepVelocity: true
+	    lifetime: 10
+        damage: 3
+	    collidesAir: false
+        bulletWidth: 3
+        bulletHeight: 9
+	    despawnEffect: none
+	    hitEffect: none
+	    frontColor: eebb0e
+	    backColor: a06508
+	    pierce: false
+	    bulletSprite: shell
+	    knockback: 7.5
+    }
+    }
+  }
+}

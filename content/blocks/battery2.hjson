@@ -1,0 +1,16 @@
+name: Large Battery MK2
+description: A strong but weak battery capable of holding 500k power units.
+type: Battery
+health: 120
+size: 3
+buildCostMultiplier: 6
+consumes: {
+  powerBuffered: 500000
+}
+requirements: [
+  titanium/500
+  silicon/200
+  power1200/100
+]
+category: power
+research: battery-large
